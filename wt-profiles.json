@@ -201,16 +201,17 @@
     },
     "profiles": {
         "defaults": {
-            "acrylicOpacity": 0.9,
+            "acrylicOpacity": 1,
             "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
+            "cursorShape": "filledBox",
             "fontFace": "Consolas",
             "fontSize": 12,
             "historySize": 9001,
             "padding": "5, 0, 0, 0",
             "snapOnInput": true,
             "closeOnExit": true,
-            "useAcrylic": true
+            "useAcrylic": true,
+            "backgroundImageOpacity": 0.3
         },
         "list": [
             {
@@ -222,8 +223,7 @@
                 "colorScheme": "Campbell-Green",
                 "backgroundImage": "C:/temp/image/GitHub-Mark-Light-120px-plus.png",
                 "backgroundImageStretchMode": "none",
-                "backgroundImageAlignment": "bottomRight",
-                "backgroundImageOpacity": 0.5
+                "backgroundImageAlignment": "bottomRight"
             },
             {
                 "guid": "{790d31d0-a175-4e02-ae41-56b8678942e9}",
@@ -232,10 +232,9 @@
                 "startingDirectory": "//wsl$/Ubuntu/home/tsunomur",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "colorScheme": "Campbell-Red",
-                "backgroundImage": "C:/temp/image/GitHub-Mark-Light-120px-plus.png",
+                "backgroundImage": "C:/temp/image/warning.png",
                 "backgroundImageStretchMode": "none",
-                "backgroundImageAlignment": "bottomRight",
-                "backgroundImageOpacity": 0.5
+                "backgroundImageAlignment": "bottomRight"
             },
             {
                 "guid": "{116f5414-79c3-48fa-8698-8fea1b600b94}",
@@ -243,10 +242,20 @@
                 "commandline": "wsl -d Ubuntu -e ssh nomupro.com",
                 "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "colorScheme": "Campbell-Red",
+                "backgroundImage": "C:/temp/image/warning.png",
+                "backgroundImageStretchMode": "none",
+                "backgroundImageAlignment": "bottomRight"
+            },
+            {
+                "guid": "{116f5414-79c3-48fa-8698-8fea1b600b95}",
+                "name": "ifconfig.me",
+                "commandline": "wsl -d Ubuntu -e curl ifconfig.me",
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "colorScheme": "Campbell-Green",
                 "backgroundImage": "C:/temp/image/GitHub-Mark-Light-120px-plus.png",
                 "backgroundImageStretchMode": "none",
                 "backgroundImageAlignment": "bottomRight",
-                "backgroundImageOpacity": 0.5
+                "closeOnExit": "never"
             },
             {
                 "background": "#012456",
@@ -285,7 +294,7 @@
             "brightBlack": "#767676",
             "brightBlue": "#789ae2",
             "brightCyan": "#37c2c2",
-            "brightGreen": "#b6b44f",
+            "brightGreen": "#13A10E",
             "brightPurple": "#B4009E",
             "brightRed": "#E74856",
             "brightWhite": "#F2F2F2",
@@ -301,7 +310,7 @@
         },
         {
             "name": "Campbell-Red",
-            "background": "#8a1f1f",
+            "background": "#770d0d",
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#767676",
