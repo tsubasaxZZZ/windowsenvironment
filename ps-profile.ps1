@@ -13,6 +13,11 @@ function git_branch {
         Write-Output "($bn)" }
 }
 
+function gh {
+    $env:GHQ_ROOT="C:\ghq"
+    cd $(ghq.exe list -p | peco.exe)
+}
+
 # プロンプト表示を変更する
 function prompt {
     # カレントディレクトリをウィンドウタイトルにする
