@@ -149,7 +149,17 @@
                 "splitMode": "duplicate"
             },
             "keys": [
-                "ctrl+_"
+                "ctrl+;"
+            ]
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal",
+                "splitMode": "duplicate"
+            },
+            "keys": [
+                "ctrl+="
             ]
         }
     ],
